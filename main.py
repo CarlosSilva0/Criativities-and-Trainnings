@@ -50,3 +50,41 @@ pessoa= 'Carlos Eduardo Pereira da Silva'
 carta= '{}, {} de {} de {} \n{}'
 print (cidade +',' + str(dia)+' de '+ mes +' de '+ str(ano)) 
 print(carta.format(cidade, dia, mes, ano, pessoa)) 
+
+anime = 'Neo Genesis Evangelion'
+print(anime)
+
+aula=10<15
+print(aula)
+
+curso='Terça'
+print(bool(curso))
+
+semana=''
+print(bool(semana))
+
+#LISTAS
+
+carros=['Fusion', '328i', 'M4', 'Mustang']
+carros[3]='Argo'
+#adicionar coisas na lista
+carros.append('Fit')
+carros.append('Golf')
+carros.append('M5')
+carros.append('Carrera')
+#deletar algo específico da lista
+del carros[3]
+#contar quantos itens tem na lista
+print(str(len(carros)) + "carros na lista")
+print(carros)
+
+#FOR
+
+motos=["XRE", "XJ6", "Fat Bob"]
+for x in motos:
+  print(x)
+  if(x== 'Fat Bob'):
+    print(' Harley Davidson') 
+
+  
+
